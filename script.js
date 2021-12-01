@@ -87,11 +87,7 @@ const main = document.getElementById("main");
 const form = document.getElementById("form");
 const search = document.getElementById("search");
 const tagsEl = document.getElementById("tags");
-var currentPage = 1;
-var nextPage = 2;
-var prevPage = 3;
-var lastUrl = "";
-var totalPages = 100;
+
 
 var selectedGenre = [];
 setGenre();
